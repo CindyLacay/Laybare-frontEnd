@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  font-weight: 500;
+  font-family: 'Bitter', serif;
+}
+
+body, html, .App, #root, .outer {
+  width: 100%;
+  height: 100%;
+}
+
+.login-image {
+  border-radius: 50px;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
+
+.title {
+  font-size: 100px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  color: green;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+
+  font-family: 'Bitter', serif;
+  color: #5D4632;
+  text-align: center;
+  font-weight: 600;
+  padding: 100px;
+}
+
+.forms {
+  display: flex;
+  justify-content: center;
+
+  width: 50%;
+  text-align: center;
+  font-family: 'Bitter', serif;
+  color: #5D4632;
+  padding-top: 85px;
+  padding-bottom: 100px;
+}
+
+.Card {
+  display: flex;
+  margin: 5px;
+}
