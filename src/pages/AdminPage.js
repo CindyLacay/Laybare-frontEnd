@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Row, Col, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import adImg from '../assets/31345451.jpg'
+import adImg from '../assets/38753847.jpg'
 
 export default function AdminPage() {
 	return (
@@ -38,7 +38,7 @@ export default function AdminPage() {
 						marginRight: '10px',
 						borderColor: 'rgb(93, 70, 50)' }}
 						as={Link} to='/products/all'
-						>View all books
+						>View all products
 					</Button>
 					<Button style={{ 
 						backgroundColor: 'transparent',
@@ -47,7 +47,7 @@ export default function AdminPage() {
 						marginRight: '10px',
 						borderColor: 'rgb(93, 70, 50)' }}
 						as={Link} to='/products/addProduct'
-						>Add a book
+						>Add a product
 					</Button>
                 </Container>
             </Col>

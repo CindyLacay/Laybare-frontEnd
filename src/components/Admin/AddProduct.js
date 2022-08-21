@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 import Swal from 'sweetalert2';
 import { Link, useNavigate } from 'react-router-dom';
-import addImg from '../../assets/38753843.jpg';
+import addImg from '../../assets/38753847.jpg';
 
 export default function AddBook(){
 
